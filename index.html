@@ -6,172 +6,360 @@
     <title>Home</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body>
-    <div class="areOne">
-        <img src="./chair.png" alt="" class="image">
-        <img src="./chair.png" alt="" class="image">
-        <img src="./chair.png" alt="" class="image">
-        <img src="./chair.png" alt="" class="image">
-        <img src="./chair.png" alt="" class="image">
-    </div>
-    <div class="sameAreOne">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
-    </div>
-    <!-- TABLE FOR ABOVE SITTING -->
-    <hr class="borderAreOne" />
+<style>
+    body {
+        border: 1px solid;
+        padding: 10px;
+        width: 50%;
+    }
+    .parentDiv {
+        display: flex;
+        justify-content: center;
+    }
+    .blocks {
+    width: 30%;
+    display: flex;
+    padding: 2px;
+}
+.green {
+    background-color: green;
+    width: 100%;
+    height: 30px;
+}
+.blue {
+    background-color: blue;
+    width: 100%;
+    height: 30px;
+}
 
-    <div class="parent">
-        <div class="leftArea">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-        <div class="leftAreaRight">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-    </div>
-        <!-- TABLE FOR ABOVE SITTING -->
-        <hr class="borderTwo" />
+.orange {
+    background-color: orange;
+    width: 100%;
+    height: 30px;
+}
 
+.reception {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 30%;
+}
 
-    <div class="parentOne">
-        <div class="areaMore">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-        <div class="sameAreaMore">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-    </div>
-    <hr class="borderThree" />
+.receptionBorder {
+    width: 58%;
+    height: 5px;
+    background-color: grey;
+    padding-left: 43%;
+    padding-bottom: 10%;
+    border-radius: 3px;
+}
 
-    <div class="parentTwo">
-        <div class="areaMoreTwo">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-        <div class="sameAreaMoreTwo">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-    </div>
-    <hr class="borderFour" />
+.chair img {
+    rotate: 180deg;
+    width: 50%;
+    margin-left: 20%;
+}
+.middleDiv {
+    display: flex;
+    width: 30%;
+    height: 40%;
+}
+.middleLeft {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.middleLeft img {
+    width: 100%;
+    rotate: -90deg;
+}
+.middleLeftBorder {
+    width: 10%;
+    height: 15px;
+    background-color: grey;
+    padding-top: 200%;
+    border-radius: 5px;
+}
+.middleRight {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.middleRight img {
+    width: 100%;
+    rotate: 90deg;
+}
+.middleRightBorder {
+    width: 10%;
+    height: 15px;
+    background-color: grey;
+    padding-top: 200%;
+    border-radius: 5px;
+    margin-left: 10%;
+}
 
-    <div class="parentThree">
-        <div class="areaMoreThree">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-        <div class="sameAreaMoreThree">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-    </div>
-    <hr class="borderFive" />
-
-
-    <div class="leftParentTwo">
-        <div class="leftAreaMoreThree">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-        <div class="leftSameAreaMoreThree">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-    </div>
-
-
-    <div class="leftCorner">
-        <img src="./chair.png" alt="">
-    </div>
-    <div class="rightCorner">
-        <img src="./chair.png" alt="">
-    </div>
-    <hr class="borderSix" />
-
-
-
-            <div class="upOne">
-                <img src="./chair.png" alt="">
-                <img src="./chair.png" alt="">
-            </div>
-            <div class="upOne downOne">
-                <img src="./chair.png" alt="">
-                <img src="./chair.png" alt="">
-            </div>
-            <hr class="borderSeven" />
-      
-        <div class="rightSideUp">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-        <div class="rightSideUp rightSidedown">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
-        </div>
-
-        <!-- new content -->
-        <div class="upOneAgain">
-            <img src="./chair.png" alt="">
-            <img src="./chair.png" alt="">
+.rightDiv {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
     
+}
+
+.topRight img {
+    width: 10%;
+}
+
+.topRightBorder {
+    background-color: grey;
+    height: 15px;
+    width: 10%;
+    padding-left: 46%;
+    margin-bottom: 10%;
+}
+
+.bottomRightBorder {
+    background-color: grey;
+    width: 10%;
+    height: 15px;
+    padding-left: 46%;
+}
+
+.bottomRight img {
+    width: 10%;
+    rotate: 180deg;
+}
+
+.secondParentDiv {
+    display: flex;
+    width: 98%;
+    margin-top: 10%;
+    padding: 10px;
+    height: 120px;
+}
+
+.secondParentDiv img {
+    width: 12%;
+}
+
+.firstLine {
+    display: flex;
+    gap: 10px;
+    margin-left: 9%;
+}
+
+.twoChairs {
+    display: flex;
+    gap: 47%;
+    margin-top: 2%;
+}
+
+.firstMove {
+    rotate: -90deg;
+}
+
+.move {
+    rotate: 90deg;
+}
+
+.firstLineFront {
+    margin-top: 1.7%;
+}
+
+.firstLineFront img {
+    rotate: 180deg;
+}
+.secondPrentDivBorder {
+    position: relative;
+    background-color: grey;
+    width: 57%;
+    height: 72px;
+    top: -115px;
+    left: 23px;
+    border-radius: 5px;
+    text-align: center;
+}
+.bottom img {
+    rotate: 180deg;
+}
+
+.topBorder {
+    background-color: grey;
+    width: 50%;
+    height: 5px;   
+}
+
+.bottomBorder {
+    background-color: grey;
+    width: 50%;
+    height: 5px; 
+    margin-top: 10%; 
+}
+
+.thirdDiv {
+display: flex;
+margin-top: 10%;
+gap: 90px;
+}
+
+.cafeteria {
+    height: fit-content;
+    background-color: grey;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 4px;
+}
+.neonLightDesign {
+    display: flex;
+    width: 10%;
+    gap: 10px;
+    margin-left: 9%;
+}
+.neonLightDesign img {
+    width: 100%;
+}
+.more img {
+    rotate: 180deg;
+}
+.neonLightDesignBorder {
+    background-color: grey;
+    width: 48%;
+    height: 12px;
+    position: relative;
+    left: 33px;
+}
+.neonLightDesignBorderBelow {
+    background-color: grey;
+    width: 48%;
+    height: 12px;
+    margin-top: 10px;
+    position: relative;
+    left: 33px;
+}
+</style>
+<body>
+    
+<div class="parentDiv">
+    <div class="leftDiv">
+        <div class="blocks">
+            <div class="green"></div>
+            <div class="blue"></div>
+            <div class="orange"></div>
+        </div>
+        <div class="reception">
+            <h5 style="text-align: right; margin-right: 10px;">RECEPTION AREA</h5>
+            <div class="tableChair">
+                <div class="receptionBorder"></div>
+                <div class="chair">
+                    <img src="./chair.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="middleDiv">
+        <div class="middleLeft">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
             <img src="./chair.png" alt="">
             <img src="./chair.png" alt="">
         </div>
-  
-    <div class="rightSideUpAgain">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
+        <div class="middleLeftBorder"></div>
+        <div class="middleRightBorder"></div>
+        <div class="middleRight">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+    </div>
+    <div class="rightDiv">
+        <div class="topRight">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+        <div class="topRightBorder"></div>
+        <div class="bottomRightBorder"></div>
+        <div class="bottomRight">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+    </div>
+</div>
 
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
+<div class="secondParentDiv">
+    <div class="secondPrentDivLeft">
+        <div class="firstLine">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+        <div class="twoChairs">
+            <img src="./chair.png" alt="" class="firstMove">
+            <img src="./chair.png" alt="" class="move">
+        </div>
+        <div class="firstLine firstLineFront">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+        <div class="secondPrentDivBorder">
+            <H3>BOARD RM</H3>
+            <p style="color: white; font-size: 10px; letter-spacing: 0.1em;">SAME TABLE LAMINATE CHANGE</p>
+        </div>
     </div>
-    <hr class="borderEight" />
+    <div class="secondPrentRight">
+            <div class="top">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+        <div class="topBorder"></div>
+        <div class="bottomBorder"></div>
+        <div class="bottom">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+    </div>
+</div>
+<div class="thirdDiv">
+    <div class="cafeteria">
+        <p>CAFETERIA</p>
+    </div>
+    <div class="neonLightsDiv">
+        <div class="neonLightDesign">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+        <div class="neonLightDesignBorder"></div>
+        <div class="neonLightDesignBorderBelow"></div>
+        <div class="neonLightDesign more">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+            <img src="./chair.png" alt="">
+        </div>
+    </div>
+</div>
 
-    <div class="meetingRoomOne">
-        <img src="./chair.png" alt="" style="margin-right: 40px;">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
+<div class="belowCafeteria">
+    <div class="firstChair">
+        <img src="" alt="">
     </div>
-    <div class="sameRoomMeeting">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
-    </div>
-    <hr class="borderNine" />
-
-        <div class="meetingRoomOne">
-        <img src="./chair.png" alt="">
-        <img src="./chair.png" alt="">
-    </div>
-    <div class="bossChair">
-        <img src="./office-chair.png" alt="">
-    </div>
-    <hr class="borderTen" />
+</div>
 
 </body>
 </html>
